@@ -1,0 +1,10 @@
+platform :ios, '11.0'
+source 'https://github.com/abbeyjackson/CocoapodPOCPodspecs.git'
+
+target 'SwiftPodApp' do
+
+    use_frameworks!
+
+    pod 'CoreFramework', '~> 0.1-NF'
+
+end

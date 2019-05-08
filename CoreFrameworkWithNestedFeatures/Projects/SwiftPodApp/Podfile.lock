@@ -1,0 +1,24 @@
+PODS:
+  - CoreFramework (0.1-NF):
+    - NestedObjcFramework (~> 0.1-NF)
+    - NestedSwiftFramework (~> 0.1-NF)
+  - NestedObjcFramework (0.1-NF)
+  - NestedSwiftFramework (0.1-NF)
+
+DEPENDENCIES:
+  - CoreFramework (~> 0.1-NF)
+
+SPEC REPOS:
+  https://github.com/abbeyjackson/CocoapodPOCPodspecs.git:
+    - CoreFramework
+    - NestedObjcFramework
+    - NestedSwiftFramework
+
+SPEC CHECKSUMS:
+  CoreFramework: dac4c268af0f45bfb99c873c765514983aa6c2cf
+  NestedObjcFramework: fda0feb5d5d76fbbcb993e57bce6e3c8c6ae1540
+  NestedSwiftFramework: cd8ed1923ba2d03f1e09701d76715564ecdc92eb
+
+PODFILE CHECKSUM: a4fc6675c4c791cb3fdb731fd8f5711c5e63ca0b
+
+COCOAPODS: 1.6.1

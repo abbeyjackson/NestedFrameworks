@@ -1,0 +1,6 @@
+framework module NestedObjcFramework {
+  umbrella header "NestedObjcFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
