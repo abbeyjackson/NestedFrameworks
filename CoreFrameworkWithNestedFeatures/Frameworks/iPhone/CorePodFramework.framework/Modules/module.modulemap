@@ -1,0 +1,6 @@
+framework module CorePodFramework {
+  umbrella header "CorePodFramework.h"
+
+  export *
+  module * { export * }
+}
