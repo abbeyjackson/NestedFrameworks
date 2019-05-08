@@ -1,0 +1,6 @@
+module Pods_ObjcPodApp {
+  umbrella header "Pods-ObjcPodApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

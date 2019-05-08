@@ -1,0 +1,1 @@
+../../../SwiftFeatureFramework/FeatureFrameworksWithNestedCore/Projects/SwiftFeatureFramework/SwiftFeatureFramework/SwiftFeatureFramework.h
