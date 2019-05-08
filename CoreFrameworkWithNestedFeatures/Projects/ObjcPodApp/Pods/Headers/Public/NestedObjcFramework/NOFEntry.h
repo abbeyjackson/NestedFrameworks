@@ -1,0 +1,1 @@
+../../../NestedObjcFramework/CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework/NOFEntry.h

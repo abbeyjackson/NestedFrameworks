@@ -1,0 +1,6 @@
+module NestedSwiftFramework {
+  umbrella header "NestedSwiftFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

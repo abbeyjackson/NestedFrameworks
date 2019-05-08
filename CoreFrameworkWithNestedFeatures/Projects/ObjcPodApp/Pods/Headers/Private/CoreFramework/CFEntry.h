@@ -1,0 +1,1 @@
+../../../CoreFramework/CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework/CFEntry.h

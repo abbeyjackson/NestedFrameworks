@@ -1,0 +1,10 @@
+platform :ios, '11.0'
+source 'https://github.com/abbeyjackson/CocoapodPOCPodspecs.git'
+
+target 'ObjcPodApp' do
+
+    use_modular_headers!
+
+    pod 'CoreFramework', '~> 0.1-NF'
+
+end

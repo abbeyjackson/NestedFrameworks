@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006C6E756132CB0E9B5B581E47C2F566 /* CoreFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CD7B560FCF1F27094123F040152F /* CoreFramework-dummy.m */; };
+		01653FA9466703FFD8861D059ECFE7A6 /* NOFEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4EE73832A4103270F1A30762190A2C /* NOFEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03F3D6B23F2E1558DD69A995CF3CEB1A /* Pods-ObjcPodApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B2C703AF9E5FCF0FCB0EE7DBCAF3CA /* Pods-ObjcPodApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0947C708454C1B8BA4EE1130339B46A2 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 0111F6B9C2A944FB63C9A94DCF30C536 /* contents.xcworkspacedata */; };
+		131760115F23B2030531E848109334F6 /* CFEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = B88ADE5C2C18401CD046E7C66D6381B3 /* CFEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CE60AAB4B7230F513C0B491E9FB86BA /* NestedSwiftFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A6F0758B22B043EB39ECD12FBD21C7 /* NestedSwiftFramework.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31273A903D359B19033D0EDE93DB7673 /* Pods-ObjcPodApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E84CD8CD2E9DFE1966D38FEFA59AA2 /* Pods-ObjcPodApp-dummy.m */; };
+		55704C04CCF212F1CE858DF2ECA05EC7 /* CoreFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5323E3DBD34DAFD4E6145B98120066D7 /* CoreFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EF8A2BF3554EAAB64A6F6501108BA69 /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D2DA4C29B438783188A3AF511E4BE /* project.pbxproj */; };
+		60B403D562A2E51EB4CC874F8DC23C58 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 6E01E6DA2FE5A7B316395AECB49D26B2 /* contents.xcworkspacedata */; };
+		65CD84B9C117BA1CC05B83F74BD30B48 /* contents.xcworkspacedata in Sources */ = {isa = PBXBuildFile; fileRef = 0C02272D95F3AEC301C3227B244B6BEE /* contents.xcworkspacedata */; };
+		7C2FAF7BA381756554EAC8842F2EB468 /* CoreFramework.xcscheme in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3D37C18E07D6DC481EA163193C95E /* CoreFramework.xcscheme */; };
+		953996AD7831B28E5848053A7CB77E3E /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = 355092077B8840879A0A72FF172FE475 /* project.pbxproj */; };
+		9D35EE96A0B9D8B3A21E815A526E961F /* NestedObjcFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F59944093B027A2BEBE1FA8230CB6CCC /* NestedObjcFramework.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F1DBB627C1477417036CCAB2550F381 /* NestedObjcFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D18B4B80B7BD7DCEFDE40079FDC95 /* NestedObjcFramework-dummy.m */; };
+		A1A41F17E55E8E8CB9BC0F7805538E93 /* NestedSwiftFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAABBDDC87265B1650BF4F686582751 /* NestedSwiftFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1CF1EA132CDCBC84D84EB823E7E2561 /* NestedSwiftFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E9987F3EB3946D60A619D845867CE5 /* NestedSwiftFramework-dummy.m */; };
+		A70288546B57BE014351B5652DCDAF97 /* CoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AB403586CB4039F3486EE555F98522B9 /* CoreFramework.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD646410B6E6723C9858830B78E26C81 /* NOFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = DB606F8B650BE8B89151F2018C4946BF /* NOFEntry.m */; };
+		B27BF79FD2CED64F86E1C6935872A8D3 /* CFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E24B34051211A91A65ACFE9B5531802 /* CFEntry.m */; };
+		C60398D3469CE73B41F3DC646600488D /* NestedObjcFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A9D8D16A67CA9F9BF81EDD08F201F3 /* NestedObjcFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D706DE17D2A32655C44FD866FA1E68AB /* project.pbxproj in Sources */ = {isa = PBXBuildFile; fileRef = 46AC9C55172C78017E33ED6759E4F8E2 /* project.pbxproj */; };
+		D995549FC73A8DEE7DC68A9D37C2F71E /* NestedSwiftFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907BB3FFD6520E5BC174947553AC679E /* NestedSwiftFramework.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4828C2D92551BB9097A158C2439384AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDC5ABE381CCE569EB60AFE9B09ADE8;
+			remoteInfo = NestedSwiftFramework;
+		};
+		8EA02EF93F3FC894FC92D090A6DB918D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69391ED5D452FA795F33EEB7CA5BD6B6;
+			remoteInfo = NestedObjcFramework;
+		};
+		B7AED978E5E608CDC40D2F80BAEBB9EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDC5ABE381CCE569EB60AFE9B09ADE8;
+			remoteInfo = NestedSwiftFramework;
+		};
+		E13DB5148EE7174AFAEEAFC2F19D069F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69391ED5D452FA795F33EEB7CA5BD6B6;
+			remoteInfo = NestedObjcFramework;
+		};
+		E5DD5F0D1AAA2CC2C9E3438469F6253C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1B28D22F76737006127D7392B5CD9B;
+			remoteInfo = CoreFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0111F6B9C2A944FB63C9A94DCF30C536 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		012C92BDA059D7461DD4E2567EFC52B1 /* NestedSwiftFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NestedSwiftFramework.modulemap; sourceTree = "<group>"; };
+		04D8A1064F437FAFF3617C9B1FD55B59 /* Pods-ObjcPodApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjcPodApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0779A2330E47C710A194BE704D5AC798 /* Pods-ObjcPodApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjcPodApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A73CD7B560FCF1F27094123F040152F /* CoreFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreFramework-dummy.m"; sourceTree = "<group>"; };
+		0C02272D95F3AEC301C3227B244B6BEE /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		1A651B18D556F38C29865AF06763DCA7 /* libPods-ObjcPodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ObjcPodApp.a"; path = "libPods-ObjcPodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B34FD4ABFC9106EE11A228C5E10C4B0 /* Pods-ObjcPodApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjcPodApp.modulemap"; sourceTree = "<group>"; };
+		21E9987F3EB3946D60A619D845867CE5 /* NestedSwiftFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestedSwiftFramework-dummy.m"; sourceTree = "<group>"; };
+		27A6F0758B22B043EB39ECD12FBD21C7 /* NestedSwiftFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedSwiftFramework.h; path = CoreFrameworkWithNestedFeatures/Projects/NestedSwiftFramework/NestedSwiftFramework/NestedSwiftFramework.h; sourceTree = "<group>"; };
+		29A4FFC7E73CDFAB6EF24A7B37462375 /* Pods-ObjcPodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcPodApp.release.xcconfig"; sourceTree = "<group>"; };
+		2F9C37B4B40A96C54096A551514CE172 /* libNestedSwiftFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNestedSwiftFramework.a; path = libNestedSwiftFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		355092077B8840879A0A72FF172FE475 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		3F83DDAEE952400B6683B13A4C7F544E /* NestedSwiftFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedSwiftFramework.xcconfig; sourceTree = "<group>"; };
+		46AC9C55172C78017E33ED6759E4F8E2 /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = CoreFrameworkWithNestedFeatures/Projects/NestedSwiftFramework/NestedSwiftFramework.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		5323E3DBD34DAFD4E6145B98120066D7 /* CoreFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFramework-umbrella.h"; sourceTree = "<group>"; };
+		54B2C703AF9E5FCF0FCB0EE7DBCAF3CA /* Pods-ObjcPodApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjcPodApp-umbrella.h"; sourceTree = "<group>"; };
+		5C5A5535931D86A7A83676696734D53B /* NestedObjcFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedObjcFramework.xcconfig; sourceTree = "<group>"; };
+		5CC9B42F7BD51C71547276F6D6231567 /* libCoreFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCoreFramework.a; path = libCoreFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3D37C18E07D6DC481EA163193C95E /* CoreFramework.xcscheme */ = {isa = PBXFileReference; includeInIndex = 1; name = CoreFramework.xcscheme; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework.xcodeproj/xcshareddata/xcschemes/CoreFramework.xcscheme; sourceTree = "<group>"; };
+		6B6D18B4B80B7BD7DCEFDE40079FDC95 /* NestedObjcFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestedObjcFramework-dummy.m"; sourceTree = "<group>"; };
+		6E01E6DA2FE5A7B316395AECB49D26B2 /* contents.xcworkspacedata */ = {isa = PBXFileReference; includeInIndex = 1; name = contents.xcworkspacedata; path = CoreFrameworkWithNestedFeatures/Projects/NestedSwiftFramework/NestedSwiftFramework.xcodeproj/project.xcworkspace/contents.xcworkspacedata; sourceTree = "<group>"; };
+		6E4EE73832A4103270F1A30762190A2C /* NOFEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NOFEntry.h; path = CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework/NOFEntry.h; sourceTree = "<group>"; };
+		6E8D2DA4C29B438783188A3AF511E4BE /* project.pbxproj */ = {isa = PBXFileReference; includeInIndex = 1; name = project.pbxproj; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework.xcodeproj/project.pbxproj; sourceTree = "<group>"; };
+		722A0786C9D429E88765F528F3A0CE3C /* Pods-ObjcPodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjcPodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7C3075EB51817BDE56B76BF768905FF7 /* libNestedObjcFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNestedObjcFramework.a; path = libNestedObjcFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAABBDDC87265B1650BF4F686582751 /* NestedSwiftFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedSwiftFramework-umbrella.h"; sourceTree = "<group>"; };
+		819FE8FE8B3F2F4D4ACA49665211C2D0 /* NestedSwiftFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedSwiftFramework-prefix.pch"; sourceTree = "<group>"; };
+		907BB3FFD6520E5BC174947553AC679E /* NestedSwiftFramework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedSwiftFramework.swift; path = CoreFrameworkWithNestedFeatures/Projects/NestedSwiftFramework/NestedSwiftFramework/NestedSwiftFramework.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E24B34051211A91A65ACFE9B5531802 /* CFEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFEntry.m; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework/CFEntry.m; sourceTree = "<group>"; };
+		AB403586CB4039F3486EE555F98522B9 /* CoreFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreFramework.h; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework/CoreFramework.h; sourceTree = "<group>"; };
+		AE21FAF818995750A41D94F1FFFD8D7A /* CoreFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreFramework-prefix.pch"; sourceTree = "<group>"; };
+		B88ADE5C2C18401CD046E7C66D6381B3 /* CFEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFEntry.h; path = CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework/CFEntry.h; sourceTree = "<group>"; };
+		C3E84CD8CD2E9DFE1966D38FEFA59AA2 /* Pods-ObjcPodApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjcPodApp-dummy.m"; sourceTree = "<group>"; };
+		CA4D9CBF93ECE801E1534F85653F8322 /* NestedObjcFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedObjcFramework-prefix.pch"; sourceTree = "<group>"; };
+		DB606F8B650BE8B89151F2018C4946BF /* NOFEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NOFEntry.m; path = CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework/NOFEntry.m; sourceTree = "<group>"; };
+		E10B769139B3EB219CCBF0F4A4115707 /* NestedObjcFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NestedObjcFramework.modulemap; sourceTree = "<group>"; };
+		E34752D5F79FEF143B49E621709A23CE /* CoreFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreFramework.xcconfig; sourceTree = "<group>"; };
+		F2A9D8D16A67CA9F9BF81EDD08F201F3 /* NestedObjcFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedObjcFramework-umbrella.h"; sourceTree = "<group>"; };
+		F59944093B027A2BEBE1FA8230CB6CCC /* NestedObjcFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedObjcFramework.h; path = CoreFrameworkWithNestedFeatures/Projects/NestedObjcFramework/NestedObjcFramework/NestedObjcFramework.h; sourceTree = "<group>"; };
+		F95F5DFCA91D49A9D44C06BDCC8BE709 /* CoreFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreFramework.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26A5CE92FC7CFD58FB3E0F8B71479BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD586DCB34FFE2C54A88875B93DD30C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73114A62DF5142C0E9C2453A58469B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED48103D2F6D4A4AA2AE51329DF148D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BADF492CF23B91C0DAE2F0C7B56FF0 /* NestedObjcFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0C02272D95F3AEC301C3227B244B6BEE /* contents.xcworkspacedata */,
+				F59944093B027A2BEBE1FA8230CB6CCC /* NestedObjcFramework.h */,
+				6E4EE73832A4103270F1A30762190A2C /* NOFEntry.h */,
+				DB606F8B650BE8B89151F2018C4946BF /* NOFEntry.m */,
+				355092077B8840879A0A72FF172FE475 /* project.pbxproj */,
+				A290FA88CD8426C8AA29BD786BD3B36A /* Support Files */,
+			);
+			name = NestedObjcFramework;
+			path = NestedObjcFramework;
+			sourceTree = "<group>";
+		};
+		45ABA0534B0BA755613A1953563B500B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				012C92BDA059D7461DD4E2567EFC52B1 /* NestedSwiftFramework.modulemap */,
+				3F83DDAEE952400B6683B13A4C7F544E /* NestedSwiftFramework.xcconfig */,
+				21E9987F3EB3946D60A619D845867CE5 /* NestedSwiftFramework-dummy.m */,
+				819FE8FE8B3F2F4D4ACA49665211C2D0 /* NestedSwiftFramework-prefix.pch */,
+				7CAABBDDC87265B1650BF4F686582751 /* NestedSwiftFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NestedSwiftFramework";
+			sourceTree = "<group>";
+		};
+		4729C654431A2C869AC10CC73C5B8F05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD34CB9F24990D7A39765EFF7BE908C2 /* Pods-ObjcPodApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		89EA972D543182242E252ECA974B2580 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F95F5DFCA91D49A9D44C06BDCC8BE709 /* CoreFramework.modulemap */,
+				E34752D5F79FEF143B49E621709A23CE /* CoreFramework.xcconfig */,
+				0A73CD7B560FCF1F27094123F040152F /* CoreFramework-dummy.m */,
+				AE21FAF818995750A41D94F1FFFD8D7A /* CoreFramework-prefix.pch */,
+				5323E3DBD34DAFD4E6145B98120066D7 /* CoreFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CoreFramework";
+			sourceTree = "<group>";
+		};
+		90D63547ED0057610F0C9708568ED1F6 /* NestedSwiftFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6E01E6DA2FE5A7B316395AECB49D26B2 /* contents.xcworkspacedata */,
+				27A6F0758B22B043EB39ECD12FBD21C7 /* NestedSwiftFramework.h */,
+				907BB3FFD6520E5BC174947553AC679E /* NestedSwiftFramework.swift */,
+				46AC9C55172C78017E33ED6759E4F8E2 /* project.pbxproj */,
+				45ABA0534B0BA755613A1953563B500B /* Support Files */,
+			);
+			name = NestedSwiftFramework;
+			path = NestedSwiftFramework;
+			sourceTree = "<group>";
+		};
+		A290FA88CD8426C8AA29BD786BD3B36A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10B769139B3EB219CCBF0F4A4115707 /* NestedObjcFramework.modulemap */,
+				5C5A5535931D86A7A83676696734D53B /* NestedObjcFramework.xcconfig */,
+				6B6D18B4B80B7BD7DCEFDE40079FDC95 /* NestedObjcFramework-dummy.m */,
+				CA4D9CBF93ECE801E1534F85653F8322 /* NestedObjcFramework-prefix.pch */,
+				F2A9D8D16A67CA9F9BF81EDD08F201F3 /* NestedObjcFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NestedObjcFramework";
+			sourceTree = "<group>";
+		};
+		A325E7DB7CC7A0DEE7EFC1B45A578A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7B0F1AD0FA7686654C8392B42EF6BF /* CoreFramework */,
+				08BADF492CF23B91C0DAE2F0C7B56FF0 /* NestedObjcFramework */,
+				90D63547ED0057610F0C9708568ED1F6 /* NestedSwiftFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA7B0F1AD0FA7686654C8392B42EF6BF /* CoreFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B88ADE5C2C18401CD046E7C66D6381B3 /* CFEntry.h */,
+				9E24B34051211A91A65ACFE9B5531802 /* CFEntry.m */,
+				0111F6B9C2A944FB63C9A94DCF30C536 /* contents.xcworkspacedata */,
+				AB403586CB4039F3486EE555F98522B9 /* CoreFramework.h */,
+				5FB3D37C18E07D6DC481EA163193C95E /* CoreFramework.xcscheme */,
+				6E8D2DA4C29B438783188A3AF511E4BE /* project.pbxproj */,
+				89EA972D543182242E252ECA974B2580 /* Support Files */,
+			);
+			name = CoreFramework;
+			path = CoreFramework;
+			sourceTree = "<group>";
+		};
+		CCFA04A083913735270DEAB2F5E17FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC9B42F7BD51C71547276F6D6231567 /* libCoreFramework.a */,
+				7C3075EB51817BDE56B76BF768905FF7 /* libNestedObjcFramework.a */,
+				2F9C37B4B40A96C54096A551514CE172 /* libNestedSwiftFramework.a */,
+				1A651B18D556F38C29865AF06763DCA7 /* libPods-ObjcPodApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				A325E7DB7CC7A0DEE7EFC1B45A578A06 /* Pods */,
+				CCFA04A083913735270DEAB2F5E17FF3 /* Products */,
+				4729C654431A2C869AC10CC73C5B8F05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD34CB9F24990D7A39765EFF7BE908C2 /* Pods-ObjcPodApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B34FD4ABFC9106EE11A228C5E10C4B0 /* Pods-ObjcPodApp.modulemap */,
+				04D8A1064F437FAFF3617C9B1FD55B59 /* Pods-ObjcPodApp-acknowledgements.markdown */,
+				0779A2330E47C710A194BE704D5AC798 /* Pods-ObjcPodApp-acknowledgements.plist */,
+				C3E84CD8CD2E9DFE1966D38FEFA59AA2 /* Pods-ObjcPodApp-dummy.m */,
+				54B2C703AF9E5FCF0FCB0EE7DBCAF3CA /* Pods-ObjcPodApp-umbrella.h */,
+				722A0786C9D429E88765F528F3A0CE3C /* Pods-ObjcPodApp.debug.xcconfig */,
+				29A4FFC7E73CDFAB6EF24A7B37462375 /* Pods-ObjcPodApp.release.xcconfig */,
+			);
+			name = "Pods-ObjcPodApp";
+			path = "Target Support Files/Pods-ObjcPodApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02D4DD3C8F5D71FE399EDB1F8234C788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131760115F23B2030531E848109334F6 /* CFEntry.h in Headers */,
+				55704C04CCF212F1CE858DF2ECA05EC7 /* CoreFramework-umbrella.h in Headers */,
+				A70288546B57BE014351B5652DCDAF97 /* CoreFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BE27C9F1F1016ECD4D6C3C476C7F52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A41F17E55E8E8CB9BC0F7805538E93 /* NestedSwiftFramework-umbrella.h in Headers */,
+				2CE60AAB4B7230F513C0B491E9FB86BA /* NestedSwiftFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADED0338D0E5A5C1B906BDB403FEBB2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F3D6B23F2E1558DD69A995CF3CEB1A /* Pods-ObjcPodApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52281C94A4E33153A69CB32A71304BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60398D3469CE73B41F3DC646600488D /* NestedObjcFramework-umbrella.h in Headers */,
+				9D35EE96A0B9D8B3A21E815A526E961F /* NestedObjcFramework.h in Headers */,
+				01653FA9466703FFD8861D059ECFE7A6 /* NOFEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BDC5ABE381CCE569EB60AFE9B09ADE8 /* NestedSwiftFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01223C85D8152C0242223B4A7924A72 /* Build configuration list for PBXNativeTarget "NestedSwiftFramework" */;
+			buildPhases = (
+				41BE27C9F1F1016ECD4D6C3C476C7F52 /* Headers */,
+				26BC6AE36469191BCAB8F63AC08CD9B6 /* Sources */,
+				ED48103D2F6D4A4AA2AE51329DF148D8 /* Frameworks */,
+				77DF0DA0A6D9FD0C81DF57ACE90739A0 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedSwiftFramework;
+			productName = NestedSwiftFramework;
+			productReference = 2F9C37B4B40A96C54096A551514CE172 /* libNestedSwiftFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69391ED5D452FA795F33EEB7CA5BD6B6 /* NestedObjcFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C2C62A09D47A57C5EF8BF6C93B7585 /* Build configuration list for PBXNativeTarget "NestedObjcFramework" */;
+			buildPhases = (
+				E52281C94A4E33153A69CB32A71304BC /* Headers */,
+				2C839A92BBE4752A3CA713BFCE6FFD0D /* Sources */,
+				A26A5CE92FC7CFD58FB3E0F8B71479BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedObjcFramework;
+			productName = NestedObjcFramework;
+			productReference = 7C3075EB51817BDE56B76BF768905FF7 /* libNestedObjcFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F1B28D22F76737006127D7392B5CD9B /* CoreFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E02A3ABAFCE2049C94E39593C9F02EE /* Build configuration list for PBXNativeTarget "CoreFramework" */;
+			buildPhases = (
+				02D4DD3C8F5D71FE399EDB1F8234C788 /* Headers */,
+				7908C701DCBCBBD302C173FC5FD72840 /* Sources */,
+				D73114A62DF5142C0E9C2453A58469B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813C96081D655AFC0B4FEDB6020E8D27 /* PBXTargetDependency */,
+				46BD08C1CFA6AEE67180B2F44C3F71A4 /* PBXTargetDependency */,
+			);
+			name = CoreFramework;
+			productName = CoreFramework;
+			productReference = 5CC9B42F7BD51C71547276F6D6231567 /* libCoreFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9C1E8F37C6636B444D38C57899B4DC4 /* Pods-ObjcPodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A818FE26FA9F8FE54AD256C989D4C /* Build configuration list for PBXNativeTarget "Pods-ObjcPodApp" */;
+			buildPhases = (
+				ADED0338D0E5A5C1B906BDB403FEBB2C /* Headers */,
+				5838873B0D81923741D1F3A21CE64ACF /* Sources */,
+				BD586DCB34FFE2C54A88875B93DD30C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CD1656F268EDCB2B6D800648EB0E72 /* PBXTargetDependency */,
+				4BCB9503BBCDDF112016E3665E848F26 /* PBXTargetDependency */,
+				9DEF661B7C0DA03F779AC1DFCA481AB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjcPodApp";
+			productName = "Pods-ObjcPodApp";
+			productReference = 1A651B18D556F38C29865AF06763DCA7 /* libPods-ObjcPodApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CCFA04A083913735270DEAB2F5E17FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1B28D22F76737006127D7392B5CD9B /* CoreFramework */,
+				69391ED5D452FA795F33EEB7CA5BD6B6 /* NestedObjcFramework */,
+				1BDC5ABE381CCE569EB60AFE9B09ADE8 /* NestedSwiftFramework */,
+				E9C1E8F37C6636B444D38C57899B4DC4 /* Pods-ObjcPodApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77DF0DA0A6D9FD0C81DF57ACE90739A0 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/NestedSwiftFramework/NestedSwiftFramework.modulemap",
+				"${PODS_ROOT}/Headers/Public/NestedSwiftFramework/NestedSwiftFramework-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/NestedSwiftFramework-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NestedSwiftFramework/NestedSwiftFramework.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/NestedSwiftFramework/NestedSwiftFramework-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BC6AE36469191BCAB8F63AC08CD9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B403D562A2E51EB4CC874F8DC23C58 /* contents.xcworkspacedata in Sources */,
+				A1CF1EA132CDCBC84D84EB823E7E2561 /* NestedSwiftFramework-dummy.m in Sources */,
+				D995549FC73A8DEE7DC68A9D37C2F71E /* NestedSwiftFramework.swift in Sources */,
+				D706DE17D2A32655C44FD866FA1E68AB /* project.pbxproj in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C839A92BBE4752A3CA713BFCE6FFD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD84B9C117BA1CC05B83F74BD30B48 /* contents.xcworkspacedata in Sources */,
+				9F1DBB627C1477417036CCAB2550F381 /* NestedObjcFramework-dummy.m in Sources */,
+				AD646410B6E6723C9858830B78E26C81 /* NOFEntry.m in Sources */,
+				953996AD7831B28E5848053A7CB77E3E /* project.pbxproj in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5838873B0D81923741D1F3A21CE64ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31273A903D359B19033D0EDE93DB7673 /* Pods-ObjcPodApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7908C701DCBCBBD302C173FC5FD72840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27BF79FD2CED64F86E1C6935872A8D3 /* CFEntry.m in Sources */,
+				0947C708454C1B8BA4EE1130339B46A2 /* contents.xcworkspacedata in Sources */,
+				006C6E756132CB0E9B5B581E47C2F566 /* CoreFramework-dummy.m in Sources */,
+				7C2FAF7BA381756554EAC8842F2EB468 /* CoreFramework.xcscheme in Sources */,
+				5EF8A2BF3554EAAB64A6F6501108BA69 /* project.pbxproj in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46BD08C1CFA6AEE67180B2F44C3F71A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedSwiftFramework;
+			target = 1BDC5ABE381CCE569EB60AFE9B09ADE8 /* NestedSwiftFramework */;
+			targetProxy = B7AED978E5E608CDC40D2F80BAEBB9EA /* PBXContainerItemProxy */;
+		};
+		4BCB9503BBCDDF112016E3665E848F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedObjcFramework;
+			target = 69391ED5D452FA795F33EEB7CA5BD6B6 /* NestedObjcFramework */;
+			targetProxy = 8EA02EF93F3FC894FC92D090A6DB918D /* PBXContainerItemProxy */;
+		};
+		813C96081D655AFC0B4FEDB6020E8D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedObjcFramework;
+			target = 69391ED5D452FA795F33EEB7CA5BD6B6 /* NestedObjcFramework */;
+			targetProxy = E13DB5148EE7174AFAEEAFC2F19D069F /* PBXContainerItemProxy */;
+		};
+		9DEF661B7C0DA03F779AC1DFCA481AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedSwiftFramework;
+			target = 1BDC5ABE381CCE569EB60AFE9B09ADE8 /* NestedSwiftFramework */;
+			targetProxy = 4828C2D92551BB9097A158C2439384AD /* PBXContainerItemProxy */;
+		};
+		B6CD1656F268EDCB2B6D800648EB0E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreFramework;
+			target = 6F1B28D22F76737006127D7392B5CD9B /* CoreFramework */;
+			targetProxy = E5DD5F0D1AAA2CC2C9E3438469F6253C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E6AE2A5B202E2E135E2407D3CCAD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34752D5F79FEF143B49E621709A23CE /* CoreFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreFramework/CoreFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/CoreFramework/CoreFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CoreFramework;
+				PRODUCT_NAME = CoreFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6A5C3919CDA4711A481516B8E1A8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A4FFC7E73CDFAB6EF24A7B37462375 /* Pods-ObjcPodApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcPodApp/Pods-ObjcPodApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67CDCC2D612C72A410AE1318272E1DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722A0786C9D429E88765F528F3A0CE3C /* Pods-ObjcPodApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjcPodApp/Pods-ObjcPodApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C18CAF8A776CACEEB026FB7B5384400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F83DDAEE952400B6683B13A4C7F544E /* NestedSwiftFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedSwiftFramework/NestedSwiftFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/NestedSwiftFramework/NestedSwiftFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NestedSwiftFramework;
+				PRODUCT_NAME = NestedSwiftFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8E35CD8EB9F68585317A991D1AED31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5A5535931D86A7A83676696734D53B /* NestedObjcFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedObjcFramework/NestedObjcFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/NestedObjcFramework/NestedObjcFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NestedObjcFramework;
+				PRODUCT_NAME = NestedObjcFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9EE26F1B05EDA1B130EAFC89AF62724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5A5535931D86A7A83676696734D53B /* NestedObjcFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedObjcFramework/NestedObjcFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/NestedObjcFramework/NestedObjcFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NestedObjcFramework;
+				PRODUCT_NAME = NestedObjcFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44542265F9BE1C087F0CE992E78876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34752D5F79FEF143B49E621709A23CE /* CoreFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreFramework/CoreFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/CoreFramework/CoreFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CoreFramework;
+				PRODUCT_NAME = CoreFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5E1BD4DBFB0896027010295D74904C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F83DDAEE952400B6683B13A4C7F544E /* NestedSwiftFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedSwiftFramework/NestedSwiftFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/NestedSwiftFramework/NestedSwiftFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NestedSwiftFramework;
+				PRODUCT_NAME = NestedSwiftFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E02A3ABAFCE2049C94E39593C9F02EE /* Build configuration list for PBXNativeTarget "CoreFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44542265F9BE1C087F0CE992E78876F /* Debug */,
+				00E6AE2A5B202E2E135E2407D3CCAD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8A818FE26FA9F8FE54AD256C989D4C /* Build configuration list for PBXNativeTarget "Pods-ObjcPodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CDCC2D612C72A410AE1318272E1DF0 /* Debug */,
+				0F6A5C3919CDA4711A481516B8E1A8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C2C62A09D47A57C5EF8BF6C93B7585 /* Build configuration list for PBXNativeTarget "NestedObjcFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EE26F1B05EDA1B130EAFC89AF62724 /* Debug */,
+				9F8E35CD8EB9F68585317A991D1AED31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01223C85D8152C0242223B4A7924A72 /* Build configuration list for PBXNativeTarget "NestedSwiftFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E1BD4DBFB0896027010295D74904C /* Debug */,
+				7C18CAF8A776CACEEB026FB7B5384400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
