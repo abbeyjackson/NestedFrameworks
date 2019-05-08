@@ -1,0 +1,6 @@
+framework module ObjcFeatureFramework {
+  umbrella header "ObjcFeatureFramework.h"
+
+  export *
+  module * { export * }
+}
