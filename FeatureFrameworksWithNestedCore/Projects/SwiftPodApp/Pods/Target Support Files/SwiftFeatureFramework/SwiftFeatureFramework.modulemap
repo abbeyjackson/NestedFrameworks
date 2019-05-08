@@ -1,0 +1,6 @@
+framework module SwiftFeatureFramework {
+  umbrella header "SwiftFeatureFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

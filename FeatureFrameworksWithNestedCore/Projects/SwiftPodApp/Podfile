@@ -1,0 +1,11 @@
+platform :ios, '11.0'
+source 'https://github.com/abbeyjackson/CocoapodPOCPodspecs.git'
+
+target 'SwiftPodApp' do
+
+    use_frameworks!
+
+    pod 'SwiftFeatureFramework', '~> 0.1-NC'
+    pod 'ObjcFeatureFramework', '~> 0.1-NC'
+
+end
