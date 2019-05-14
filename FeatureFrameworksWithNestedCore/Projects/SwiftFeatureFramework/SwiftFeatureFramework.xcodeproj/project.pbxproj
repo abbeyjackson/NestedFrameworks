@@ -6,16 +6,43 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		07F2D03A2285CD030080AB8D /* Packaging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07F2D03B2285CD030080AB8D /* Build configuration list for PBXAggregateTarget "Packaging" */;
+			buildPhases = (
+				07F2D03E2285CD0E0080AB8D /* ShellScript */,
+			);
+			dependencies = (
+				07F2D0402285CD170080AB8D /* PBXTargetDependency */,
+			);
+			name = Packaging;
+			productName = Packaging;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0714043F227CB29600349FBC /* SwiftFeatureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0714043D227CB29600349FBC /* SwiftFeatureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07140446227CB2A400349FBC /* SwiftFeatureFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07140445227CB2A400349FBC /* SwiftFeatureFramework.swift */; };
+		07140446227CB2A400349FBC /* SFFEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07140445227CB2A400349FBC /* SFFEntry.swift */; };
+		07318715228B72830063B2F1 /* NestedCoreFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07318714228B72820063B2F1 /* NestedCoreFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F2D03F2285CD170080AB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07140431227CB29600349FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07140439227CB29600349FBC;
+			remoteInfo = SwiftFeatureFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0714043A227CB29600349FBC /* SwiftFeatureFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFeatureFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714043D227CB29600349FBC /* SwiftFeatureFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFeatureFramework.h; sourceTree = "<group>"; };
 		0714043E227CB29600349FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07140445227CB2A400349FBC /* SwiftFeatureFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFeatureFramework.swift; sourceTree = "<group>"; };
+		07140445227CB2A400349FBC /* SFFEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFFEntry.swift; sourceTree = "<group>"; };
+		07318714228B72820063B2F1 /* NestedCoreFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NestedCoreFramework.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07318715228B72830063B2F1 /* NestedCoreFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,7 +62,6 @@
 			children = (
 				0714043C227CB29600349FBC /* SwiftFeatureFramework */,
 				0714043B227CB29600349FBC /* Products */,
-				BAB39C92A019AFD90212192B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,18 +76,12 @@
 		0714043C227CB29600349FBC /* SwiftFeatureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				07318714228B72820063B2F1 /* NestedCoreFramework.framework */,
 				0714043D227CB29600349FBC /* SwiftFeatureFramework.h */,
-				07140445227CB2A400349FBC /* SwiftFeatureFramework.swift */,
+				07140445227CB2A400349FBC /* SFFEntry.swift */,
 				0714043E227CB29600349FBC /* Info.plist */,
 			);
 			path = SwiftFeatureFramework;
-			sourceTree = "<group>";
-		};
-		BAB39C92A019AFD90212192B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +102,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07140442227CB29600349FBC /* Build configuration list for PBXNativeTarget "SwiftFeatureFramework" */;
 			buildPhases = (
-				964A563CCC35494CE0760430 /* [CP] Check Pods Manifest.lock */,
 				07140435227CB29600349FBC /* Headers */,
 				07140436227CB29600349FBC /* Sources */,
 				07140437227CB29600349FBC /* Frameworks */,
@@ -109,6 +129,9 @@
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 					};
+					07F2D03A2285CD030080AB8D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 07140434227CB29600349FBC /* Build configuration list for PBXProject "SwiftFeatureFramework" */;
@@ -124,6 +147,7 @@
 			projectRoot = "";
 			targets = (
 				07140439227CB29600349FBC /* SwiftFeatureFramework */,
+				07F2D03A2285CD030080AB8D /* Packaging */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		964A563CCC35494CE0760430 /* [CP] Check Pods Manifest.lock */ = {
+		07F2D03E2285CD0E0080AB8D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,19 +171,14 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftFeatureFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "#!/bin/sh\n\n## The scheme for this target is set to use Release configuration for both build and archive \n${SRCROOT}/../../../Packaging/Packaging.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -168,11 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07140446227CB2A400349FBC /* SwiftFeatureFramework.swift in Sources */,
+				07140446227CB2A400349FBC /* SFFEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2D0402285CD170080AB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07140439227CB29600349FBC /* SwiftFeatureFramework */;
+			targetProxy = 07F2D03F2285CD170080AB8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		07140440227CB29600349FBC /* Debug */ = {
@@ -360,6 +387,24 @@
 			};
 			name = Release;
 		};
+		07F2D03C2285CD030080AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07F2D03D2285CD030080AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +422,15 @@
 			buildConfigurations = (
 				07140443227CB29600349FBC /* Debug */,
 				07140444227CB29600349FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2D03B2285CD030080AB8D /* Build configuration list for PBXAggregateTarget "Packaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2D03C2285CD030080AB8D /* Debug */,
+				07F2D03D2285CD030080AB8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

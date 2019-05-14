@@ -7,12 +7,13 @@
 //
 
 #import "OFFEntry.h"
-#import <NestedCoreFramework/NestedCoreFramework.h>
+@import NestedCoreFramework;
 
 @implementation OFFEntry
 
 - (NSString *)objcLabel {
     return [[NCFEntry new] coreLabel:@"Objc"];
+    return @"";
 }
 
 @end
