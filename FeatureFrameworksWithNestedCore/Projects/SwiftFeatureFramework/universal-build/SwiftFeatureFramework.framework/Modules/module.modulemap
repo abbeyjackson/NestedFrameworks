@@ -1,0 +1,11 @@
+framework module SwiftFeatureFramework {
+  umbrella header "SwiftFeatureFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftFeatureFramework.Swift {
+    header "SwiftFeatureFramework-Swift.h"
+    requires objc
+}

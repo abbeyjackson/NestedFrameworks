@@ -12,7 +12,7 @@
 		07B2E3AF227BA37700B8BCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2E3AD227BA37700B8BCEA /* Main.storyboard */; };
 		07B2E3B1227BA37A00B8BCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B2E3B0227BA37A00B8BCEA /* Assets.xcassets */; };
 		07B2E3B4227BA37A00B8BCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B2E3B2227BA37A00B8BCEA /* LaunchScreen.storyboard */; };
-		8D03021CDF74485CFE94DA47 /* Pods_SwiftPodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2C3CC2DA756173A90B0EF7 /* Pods_SwiftPodApp.framework */; };
+		83B3FE5A6080945C083B6BD6 /* Pods_SwiftPodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B084AA56908A8D34E6FD4329 /* Pods_SwiftPodApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		071403DB227CA7A600349FBC /* NestedObjcFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NestedObjcFramework.framework; sourceTree = "<group>"; };
-		071403DC227CA7A600349FBC /* NestedSwiftFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NestedSwiftFramework.framework; sourceTree = "<group>"; };
-		071403DF227CA7B100349FBC /* CorePodFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CorePodFramework.framework; sourceTree = "<group>"; };
 		07B2E3A6227BA37700B8BCEA /* SwiftPodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B2E3A9227BA37700B8BCEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07B2E3AB227BA37700B8BCEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,9 +36,9 @@
 		07B2E3B0227BA37A00B8BCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07B2E3B3227BA37A00B8BCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07B2E3B5227BA37A00B8BCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33F0597EBFDB91A83A6827FA /* Pods-SwiftPodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftPodApp/Pods-SwiftPodApp.release.xcconfig"; sourceTree = "<group>"; };
-		70A7CAB392B01A312041BDDA /* Pods-SwiftPodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPodApp/Pods-SwiftPodApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FE2C3CC2DA756173A90B0EF7 /* Pods_SwiftPodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC7D4BE96DB2572FBAECC51 /* Pods-SwiftPodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPodApp/Pods-SwiftPodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5858C66ACB581CDFAEE10BD3 /* Pods-SwiftPodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPodApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftPodApp/Pods-SwiftPodApp.release.xcconfig"; sourceTree = "<group>"; };
+		B084AA56908A8D34E6FD4329 /* Pods_SwiftPodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D03021CDF74485CFE94DA47 /* Pods_SwiftPodApp.framework in Frameworks */,
+				83B3FE5A6080945C083B6BD6 /* Pods_SwiftPodApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +56,7 @@
 		071403C7227CA42F00349FBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				071403DF227CA7B100349FBC /* CorePodFramework.framework */,
-				071403DC227CA7A600349FBC /* NestedSwiftFramework.framework */,
-				071403DB227CA7A600349FBC /* NestedObjcFramework.framework */,
-				FE2C3CC2DA756173A90B0EF7 /* Pods_SwiftPodApp.framework */,
+				B084AA56908A8D34E6FD4329 /* Pods_SwiftPodApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,7 +67,7 @@
 				07B2E3A8227BA37700B8BCEA /* SwiftPodApp */,
 				07B2E3A7227BA37700B8BCEA /* Products */,
 				071403C7227CA42F00349FBC /* Frameworks */,
-				2FC87E46D97DC7E04A7705AE /* Pods */,
+				11A4280A8BAE437548C2E1BE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +92,13 @@
 			path = SwiftPodApp;
 			sourceTree = "<group>";
 		};
-		2FC87E46D97DC7E04A7705AE /* Pods */ = {
+		11A4280A8BAE437548C2E1BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				70A7CAB392B01A312041BDDA /* Pods-SwiftPodApp.debug.xcconfig */,
-				33F0597EBFDB91A83A6827FA /* Pods-SwiftPodApp.release.xcconfig */,
+				3DC7D4BE96DB2572FBAECC51 /* Pods-SwiftPodApp.debug.xcconfig */,
+				5858C66ACB581CDFAEE10BD3 /* Pods-SwiftPodApp.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,17 +203,23 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftPodApp/Pods-SwiftPodApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CoreFramework/CoreFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/NestedObjcFramework/NestedObjcFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/NestedSwiftFramework/NestedSwiftFramework.framework",
+				"${PODS_ROOT}/CoreFramework/CoreFramework-iOS-universal/CoreFramework.framework",
+				"${PODS_ROOT}/CoreFramework/CoreFramework-iOS-universal/CoreFramework.framework.dSYM",
+				"${PODS_ROOT}/NestedObjcFramework/NestedObjcFramework-iOS-universal/NestedObjcFramework.framework",
+				"${PODS_ROOT}/NestedObjcFramework/NestedObjcFramework-iOS-universal/NestedObjcFramework.framework.dSYM",
+				"${PODS_ROOT}/NestedSwiftFramework/NestedSwiftFramework-iOS-universal/NestedSwiftFramework.framework",
+				"${PODS_ROOT}/NestedSwiftFramework/NestedSwiftFramework-iOS-universal/NestedSwiftFramework.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreFramework.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/CoreFramework.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NestedObjcFramework.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/NestedObjcFramework.framework.dSYM",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NestedSwiftFramework.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/NestedSwiftFramework.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,7 +378,7 @@
 		};
 		07B2E3B9227BA37A00B8BCEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70A7CAB392B01A312041BDDA /* Pods-SwiftPodApp.debug.xcconfig */;
+			baseConfigurationReference = 3DC7D4BE96DB2572FBAECC51 /* Pods-SwiftPodApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,7 +402,7 @@
 		};
 		07B2E3BA227BA37A00B8BCEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33F0597EBFDB91A83A6827FA /* Pods-SwiftPodApp.release.xcconfig */;
+			baseConfigurationReference = 5858C66ACB581CDFAEE10BD3 /* Pods-SwiftPodApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

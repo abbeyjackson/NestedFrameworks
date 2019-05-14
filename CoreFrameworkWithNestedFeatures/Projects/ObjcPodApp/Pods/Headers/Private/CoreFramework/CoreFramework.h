@@ -1,1 +1,0 @@
-../../../CoreFramework/CoreFrameworkWithNestedFeatures/Projects/CoreFramework/CoreFramework/CoreFramework.h

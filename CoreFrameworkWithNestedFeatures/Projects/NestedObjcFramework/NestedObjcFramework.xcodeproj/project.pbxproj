@@ -6,11 +6,36 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		07E8F72222862559007A153A /* Packaging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07E8F72522862559007A153A /* Build configuration list for PBXAggregateTarget "Packaging" */;
+			buildPhases = (
+				07E8F72822862562007A153A /* ShellScript */,
+			);
+			dependencies = (
+				07E8F72722862560007A153A /* PBXTargetDependency */,
+			);
+			name = Packaging;
+			productName = Packaging;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		07FF4559227BABC500C03310 /* NestedObjcFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF4557227BABC500C03310 /* NestedObjcFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07FF4560227BABDA00C03310 /* NOFEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF455F227BABDA00C03310 /* NOFEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07FF4562227BABE700C03310 /* NOFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF4561227BABE700C03310 /* NOFEntry.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E8F72622862560007A153A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FF454B227BABC500C03310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FF4553227BABC500C03310;
+			remoteInfo = NestedObjcFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		07FF4554227BABC500C03310 /* NestedObjcFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestedObjcFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +125,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = abbeytest;
 				TargetAttributes = {
+					07E8F72222862559007A153A = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					07FF4553227BABC500C03310 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -118,6 +146,7 @@
 			projectRoot = "";
 			targets = (
 				07FF4553227BABC500C03310 /* NestedObjcFramework */,
+				07E8F72222862559007A153A /* Packaging */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +161,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07E8F72822862562007A153A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n## The scheme for this target is set to use Release configuration for both build and archive \n${SRCROOT}/../../../Packaging/Packaging.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07FF4550227BABC500C03310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +192,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		07E8F72722862560007A153A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FF4553227BABC500C03310 /* NestedObjcFramework */;
+			targetProxy = 07E8F72622862560007A153A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		07E8F72322862559007A153A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07E8F72422862559007A153A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		07FF455A227BABC500C03310 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,6 +388,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07E8F72522862559007A153A /* Build configuration list for PBXAggregateTarget "Packaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E8F72322862559007A153A /* Debug */,
+				07E8F72422862559007A153A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		07FF454E227BABC500C03310 /* Build configuration list for PBXProject "NestedObjcFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

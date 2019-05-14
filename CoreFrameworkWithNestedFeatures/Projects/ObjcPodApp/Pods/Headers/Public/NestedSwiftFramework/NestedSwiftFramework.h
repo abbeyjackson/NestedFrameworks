@@ -1,1 +1,0 @@
-../../../NestedSwiftFramework/CoreFrameworkWithNestedFeatures/Projects/NestedSwiftFramework/NestedSwiftFramework/NestedSwiftFramework.h

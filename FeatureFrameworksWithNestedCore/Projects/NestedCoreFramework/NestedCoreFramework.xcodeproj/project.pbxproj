@@ -6,11 +6,36 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		07F2D0242284D5440080AB8D /* Packaging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07F2D0272284D5440080AB8D /* Build configuration list for PBXAggregateTarget "Packaging" */;
+			buildPhases = (
+				07F2D02A2284D5570080AB8D /* Run Script */,
+			);
+			dependencies = (
+				07F2D0292284D5540080AB8D /* PBXTargetDependency */,
+			);
+			name = Packaging;
+			productName = Packaging;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		071403FC227CAB9C00349FBC /* NestedCoreFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 071403FA227CAB9C00349FBC /* NestedCoreFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07140404227CABC100349FBC /* NCFEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 07140402227CABC100349FBC /* NCFEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07140405227CABC100349FBC /* NCFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 07140403227CABC100349FBC /* NCFEntry.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F2D0282284D5540080AB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 071403EE227CAB9C00349FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 071403F6227CAB9C00349FBC;
+			remoteInfo = NestedCoreFramework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		071403F7227CAB9C00349FBC /* NestedCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestedCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +128,9 @@
 					071403F6227CAB9C00349FBC = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					07F2D0242284D5440080AB8D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 071403F1227CAB9C00349FBC /* Build configuration list for PBXProject "NestedCoreFramework" */;
@@ -118,6 +146,7 @@
 			projectRoot = "";
 			targets = (
 				071403F6227CAB9C00349FBC /* NestedCoreFramework */,
+				07F2D0242284D5440080AB8D /* Packaging */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +161,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07F2D02A2284D5570080AB8D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n## The scheme for this target is set to use Release configuration for both build and archive \n${SRCROOT}/../../../Packaging/Packaging.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		071403F3227CAB9C00349FBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +192,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2D0292284D5540080AB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 071403F6227CAB9C00349FBC /* NestedCoreFramework */;
+			targetProxy = 07F2D0282284D5540080AB8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		071403FD227CAB9C00349FBC /* Debug */ = {
@@ -310,6 +368,24 @@
 			};
 			name = Release;
 		};
+		07F2D0252284D5440080AB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07F2D0262284D5440080AB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4CWH78TFV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +403,15 @@
 			buildConfigurations = (
 				07140400227CAB9C00349FBC /* Debug */,
 				07140401227CAB9C00349FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2D0272284D5440080AB8D /* Build configuration list for PBXAggregateTarget "Packaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2D0252284D5440080AB8D /* Debug */,
+				07F2D0262284D5440080AB8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

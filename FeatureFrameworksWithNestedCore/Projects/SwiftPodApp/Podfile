@@ -5,7 +5,7 @@ target 'SwiftPodApp' do
 
     use_frameworks!
 
-    pod 'SwiftFeatureFramework', '~> 0.1-NC'
-    pod 'ObjcFeatureFramework', '~> 0.1-NC'
+    pod 'SwiftFeatureFramework', '~> 0.2-NC'
+    pod 'ObjcFeatureFramework', '~> 0.2-NC'
 
 end

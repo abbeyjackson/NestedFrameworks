@@ -5,6 +5,6 @@ target 'ObjcPodApp' do
 
     use_modular_headers!
 
-    pod 'CoreFramework', '~> 0.1-NF'
+    pod 'CoreFramework', '~> 0.2-NF'
 
 end

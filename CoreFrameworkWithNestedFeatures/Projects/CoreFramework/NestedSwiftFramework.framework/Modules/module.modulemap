@@ -1,0 +1,11 @@
+framework module NestedSwiftFramework {
+  umbrella header "NestedSwiftFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NestedSwiftFramework.Swift {
+    header "NestedSwiftFramework-Swift.h"
+    requires objc
+}
