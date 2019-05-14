@@ -1,12 +1,8 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/CoreFramework/CoreFramework-iOS-universal" "${PODS_ROOT}/NestedObjcFramework/NestedObjcFramework-iOS-universal" "${PODS_ROOT}/NestedSwiftFramework/NestedSwiftFramework-iOS-universal"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CoreFramework" "${PODS_ROOT}/Headers/Public/NestedObjcFramework" "${PODS_ROOT}/Headers/Public/NestedSwiftFramework"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CoreFramework" "${PODS_CONFIGURATION_BUILD_DIR}/NestedObjcFramework" "${PODS_CONFIGURATION_BUILD_DIR}/NestedSwiftFramework"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/NestedSwiftFramework/NestedSwiftFramework.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CoreFramework/CoreFramework.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/NestedObjcFramework/NestedObjcFramework.modulemap"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CoreFramework" -l"NestedObjcFramework" -l"NestedSwiftFramework" -framework "Foundation"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/NestedSwiftFramework/NestedSwiftFramework.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CoreFramework/CoreFramework.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/NestedObjcFramework/NestedObjcFramework.modulemap"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CoreFramework" -framework "Foundation" -framework "NestedObjcFramework" -framework "NestedSwiftFramework"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/NestedSwiftFramework"

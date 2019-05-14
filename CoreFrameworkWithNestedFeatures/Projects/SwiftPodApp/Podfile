@@ -5,6 +5,6 @@ target 'SwiftPodApp' do
 
     use_frameworks!
 
-    pod 'CoreFramework', '~> 0.1-NF'
+    pod 'CoreFramework', '~> 0.2-NF'
 
 end
