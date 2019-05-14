@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         }
 
         let originalSwiftLabel = swiftLabel.text
+
         swiftLabel.text = SFFEntry().swiftLabel()
         if swiftLabel.text != originalSwiftLabel {
             swiftLabel.backgroundColor = UIColor.green

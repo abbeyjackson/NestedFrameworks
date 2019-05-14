@@ -1,6 +1,0 @@
-framework module NestedCoreFramework {
-  umbrella header "NestedCoreFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}
